@@ -1,0 +1,157 @@
+2019-01-20 17:24:12.809  INFO 6992 --- [main] gps.server.AppMain                       : Starting AppMain on WPF with PID 6992 (E:\Workspaces\IdeaProjects\gpsserver\target\classes started by Administrator in E:\Workspaces\IdeaProjects\gpsserver)
+2019-01-20 17:24:12.835  INFO 6992 --- [main] gps.server.AppMain                       : No active profile set, falling back to default profiles: default
+2019-01-20 17:24:13.335  INFO 6992 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 17:24:13 CST 2019]; root of context hierarchy
+2019-01-20 17:24:19.685  INFO 6992 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7878 (http)
+2019-01-20 17:24:19.820  INFO 6992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-20 17:24:19.823  INFO 6992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-01-20 17:24:20.362  INFO 6992 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-20 17:24:20.362  INFO 6992 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7069 ms
+2019-01-20 17:24:20.684  INFO 6992 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-20 17:24:20.688  INFO 6992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-20 17:24:20.689  INFO 6992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-20 17:24:20.689  INFO 6992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-20 17:24:20.689  INFO 6992 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-20 17:24:23.083  INFO 6992 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 17:24:13 CST 2019]; root of context hierarchy
+2019-01-20 17:24:23.180  INFO 6992 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-20 17:24:23.181  INFO 6992 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-20 17:24:23.221  INFO 6992 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 17:24:23.221  INFO 6992 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 17:24:23.323  INFO 6992 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 17:24:23.841  INFO 6992 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-20 17:24:24.087  INFO 6992 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7878 (http)
+2019-01-20 17:24:25.965  INFO 6992 --- [main] gps.server.AppMain                       : Started AppMain in 14.842 seconds (JVM running for 17.442)
+2019-01-20 17:32:16.925  INFO 3652 --- [main] gps.server.AppMain                       : Starting AppMain on WPF with PID 3652 (E:\Workspaces\IdeaProjects\gpsserver\target\classes started by Administrator in E:\Workspaces\IdeaProjects\gpsserver)
+2019-01-20 17:32:16.930  INFO 3652 --- [main] gps.server.AppMain                       : No active profile set, falling back to default profiles: default
+2019-01-20 17:32:17.024  INFO 3652 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 17:32:17 CST 2019]; root of context hierarchy
+2019-01-20 17:32:19.268  INFO 3652 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7878 (http)
+2019-01-20 17:32:19.284  INFO 3652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-20 17:32:19.285  INFO 3652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-01-20 17:32:19.405  INFO 3652 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-20 17:32:19.406  INFO 3652 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2386 ms
+2019-01-20 17:32:19.581  INFO 3652 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-20 17:32:19.585  INFO 3652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-20 17:32:19.586  INFO 3652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-20 17:32:19.586  INFO 3652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-20 17:32:19.586  INFO 3652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-20 17:32:20.314  INFO 3652 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 17:32:17 CST 2019]; root of context hierarchy
+2019-01-20 17:32:20.370  INFO 3652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-20 17:32:20.372  INFO 3652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-20 17:32:20.402  INFO 3652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 17:32:20.403  INFO 3652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 17:32:20.447  INFO 3652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 17:32:20.675  INFO 3652 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-20 17:32:20.740  INFO 3652 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7878 (http)
+2019-01-20 17:32:20.746  INFO 3652 --- [main] appmain                                  : 启动TCP服务器...
+2019-01-20 17:32:21.617  INFO 3652 --- [main] TCPServer                                : TCP服务器已启动
+2019-01-20 17:32:21.619  INFO 3652 --- [main] gps.server.AppMain                       : Started AppMain in 5.117 seconds (JVM running for 5.888)
+2019-01-20 17:33:16.610  INFO 3652 --- [nioEventLoopGroup-3-1] TcpServerHandler                         : 接收客户端数据:1234567890
+2019-01-20 20:10:55.415  INFO 1460 --- [main] gps.server.AppMain                       : Starting AppMain on WPF with PID 1460 (E:\Workspaces\IdeaProjects\gpsserver\target\classes started by Administrator in E:\Workspaces\IdeaProjects\gpsserver)
+2019-01-20 20:10:55.422  INFO 1460 --- [main] gps.server.AppMain                       : No active profile set, falling back to default profiles: default
+2019-01-20 20:10:55.615  INFO 1460 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:10:55 CST 2019]; root of context hierarchy
+2019-01-20 20:10:57.730  INFO 1460 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7878 (http)
+2019-01-20 20:10:57.743  INFO 1460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-20 20:10:57.744  INFO 1460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-01-20 20:10:57.857  INFO 1460 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-20 20:10:57.857  INFO 1460 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2247 ms
+2019-01-20 20:10:58.011  INFO 1460 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-20 20:10:58.015  INFO 1460 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-20 20:10:58.016  INFO 1460 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-20 20:10:58.016  INFO 1460 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-20 20:10:58.016  INFO 1460 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-20 20:10:58.901  INFO 1460 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:10:55 CST 2019]; root of context hierarchy
+2019-01-20 20:10:58.956  INFO 1460 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-20 20:10:58.958  INFO 1460 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-20 20:10:58.990  INFO 1460 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:10:58.991  INFO 1460 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:10:59.030  INFO 1460 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:10:59.268  INFO 1460 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-20 20:10:59.334  INFO 1460 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7878 (http)
+2019-01-20 20:10:59.338  INFO 1460 --- [main] appmain                                  : 启动TCP服务器...
+2019-01-20 20:11:00.289  INFO 1460 --- [main] TCPServer                                : TCP服务器已启动
+2019-01-20 20:11:00.291  INFO 1460 --- [main] gps.server.AppMain                       : Started AppMain in 5.372 seconds (JVM running for 6.12)
+2019-01-20 20:11:35.728  INFO 1460 --- [http-nio-7878-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-20 20:11:35.728  INFO 1460 --- [http-nio-7878-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-20 20:11:35.751  INFO 1460 --- [http-nio-7878-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-01-20 20:13:13.010  INFO 1708 --- [main] gps.server.AppMain                       : Starting AppMain on WPF with PID 1708 (E:\Workspaces\IdeaProjects\gpsserver\target\classes started by Administrator in E:\Workspaces\IdeaProjects\gpsserver)
+2019-01-20 20:13:13.015  INFO 1708 --- [main] gps.server.AppMain                       : No active profile set, falling back to default profiles: default
+2019-01-20 20:13:13.087  INFO 1708 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:13:13 CST 2019]; root of context hierarchy
+2019-01-20 20:13:15.788  INFO 1708 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7878 (http)
+2019-01-20 20:13:15.809  INFO 1708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-20 20:13:15.810  INFO 1708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-01-20 20:13:15.928  INFO 1708 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-20 20:13:15.928  INFO 1708 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2844 ms
+2019-01-20 20:13:16.131  INFO 1708 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-20 20:13:16.137  INFO 1708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-20 20:13:16.137  INFO 1708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-20 20:13:16.137  INFO 1708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-20 20:13:16.138  INFO 1708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-20 20:13:16.915  INFO 1708 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:13:13 CST 2019]; root of context hierarchy
+2019-01-20 20:13:16.971  INFO 1708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-20 20:13:16.972  INFO 1708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-20 20:13:17.003  INFO 1708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:13:17.003  INFO 1708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:13:17.040  INFO 1708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:13:17.263  INFO 1708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-20 20:13:17.325  INFO 1708 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7878 (http)
+2019-01-20 20:13:17.328  INFO 1708 --- [main] appmain                                  : 启动TCP服务器...
+2019-01-20 20:13:18.176  INFO 1708 --- [main] TCPServer                                : TCP服务器已启动
+2019-01-20 20:13:18.178  INFO 1708 --- [main] gps.server.AppMain                       : Started AppMain in 5.641 seconds (JVM running for 6.63)
+2019-01-20 20:14:29.045  INFO 1708 --- [http-nio-7878-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-20 20:14:29.046  INFO 1708 --- [http-nio-7878-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-20 20:14:29.068  INFO 1708 --- [http-nio-7878-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-01-20 20:33:17.961  INFO 4612 --- [main] gps.server.AppMain                       : Starting AppMain on WPF with PID 4612 (E:\Workspaces\IdeaProjects\gpsserver\target\classes started by Administrator in E:\Workspaces\IdeaProjects\gpsserver)
+2019-01-20 20:33:17.965  INFO 4612 --- [main] gps.server.AppMain                       : No active profile set, falling back to default profiles: default
+2019-01-20 20:33:18.046  INFO 4612 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:33:18 CST 2019]; root of context hierarchy
+2019-01-20 20:33:20.714  INFO 4612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7878 (http)
+2019-01-20 20:33:20.730  INFO 4612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-20 20:33:20.731  INFO 4612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-01-20 20:33:20.849  INFO 4612 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-20 20:33:20.849  INFO 4612 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2806 ms
+2019-01-20 20:33:21.002  INFO 4612 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-20 20:33:21.006  INFO 4612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-20 20:33:21.007  INFO 4612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-20 20:33:21.007  INFO 4612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-20 20:33:21.007  INFO 4612 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-20 20:33:21.685  INFO 4612 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:33:18 CST 2019]; root of context hierarchy
+2019-01-20 20:33:21.736  INFO 4612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/list],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> gps.server.controller.GpsDataController.getListData()
+2019-01-20 20:33:21.741  INFO 4612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-20 20:33:21.741  INFO 4612 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-20 20:33:21.774  INFO 4612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:33:21.775  INFO 4612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:33:21.810  INFO 4612 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:33:22.055  INFO 4612 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-20 20:33:22.111  INFO 4612 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7878 (http)
+2019-01-20 20:33:22.114  INFO 4612 --- [main] appmain                                  : 启动TCP服务器...
+2019-01-20 20:33:22.921  INFO 4612 --- [main] TCPServer                                : TCP服务器已启动
+2019-01-20 20:33:22.923  INFO 4612 --- [main] gps.server.AppMain                       : Started AppMain in 5.387 seconds (JVM running for 6.163)
+2019-01-20 20:33:27.459  INFO 4612 --- [http-nio-7878-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-20 20:33:27.460  INFO 4612 --- [http-nio-7878-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-20 20:33:27.482  INFO 4612 --- [http-nio-7878-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-01-20 20:35:25.853  INFO 2220 --- [main] gps.server.AppMain                       : Starting AppMain on WPF with PID 2220 (E:\Workspaces\IdeaProjects\gpsserver\target\classes started by Administrator in E:\Workspaces\IdeaProjects\gpsserver)
+2019-01-20 20:35:25.857  INFO 2220 --- [main] gps.server.AppMain                       : No active profile set, falling back to default profiles: default
+2019-01-20 20:35:25.935  INFO 2220 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:35:25 CST 2019]; root of context hierarchy
+2019-01-20 20:35:28.320  INFO 2220 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7878 (http)
+2019-01-20 20:35:28.338  INFO 2220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-20 20:35:28.340  INFO 2220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-01-20 20:35:28.468  INFO 2220 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-20 20:35:28.468  INFO 2220 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2542 ms
+2019-01-20 20:35:28.627  INFO 2220 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-20 20:35:28.631  INFO 2220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-20 20:35:28.632  INFO 2220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-20 20:35:28.632  INFO 2220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-20 20:35:28.632  INFO 2220 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-20 20:35:29.679  INFO 2220 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f08448: startup date [Sun Jan 20 20:35:25 CST 2019]; root of context hierarchy
+2019-01-20 20:35:29.759  INFO 2220 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/list],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> gps.server.controller.GpsDataController.getListData()
+2019-01-20 20:35:29.766  INFO 2220 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-20 20:35:29.767  INFO 2220 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-20 20:35:29.815  INFO 2220 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:35:29.816  INFO 2220 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:35:29.863  INFO 2220 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-20 20:35:30.205  INFO 2220 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-20 20:35:30.298  INFO 2220 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7878 (http)
+2019-01-20 20:35:30.304  INFO 2220 --- [main] appmain                                  : 启动TCP服务器...
+2019-01-20 20:35:31.283  INFO 2220 --- [main] TCPServer                                : TCP服务器已启动
+2019-01-20 20:35:31.285  INFO 2220 --- [main] gps.server.AppMain                       : Started AppMain in 5.83 seconds (JVM running for 6.631)
+2019-01-20 20:35:34.564  INFO 2220 --- [http-nio-7878-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-20 20:35:34.564  INFO 2220 --- [http-nio-7878-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-20 20:35:34.588  INFO 2220 --- [http-nio-7878-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
